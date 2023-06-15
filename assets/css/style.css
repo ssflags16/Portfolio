@@ -65,6 +65,10 @@ body {
 padding: 24px;
 } */
 
+span {
+    color: var(--maincolor);
+}
+
 .lname {
     background-color: var(--maincolor);
 }
@@ -214,4 +218,15 @@ button.navbar-toggler1 {
     .navbar-toggler1 .navbar-toggler-icon {
         display: block;
     }
+}
+
+
+/* ----------------------myskills------------------------- */
+
+.myskills {
+    padding: 100px 0px;
+}
+
+.row {
+    justify-content: center;
 }
