@@ -1,6 +1,7 @@
 :root {
     --white: #fff;
     --maincolor: #0d6efd;
+    --maincolor2: #1060d8;
 }
 
 body {
@@ -13,6 +14,14 @@ body {
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'Poppins', sans-serif; */
     /* font-family: 'Wix Madefor Text', sans-serif; */
+}
+
+.btn.btn-primary {
+    background-color: var(--maincolor) !important;
+}
+
+.btn.btn-primary:hover {
+    background-color: var(--maincolor2) !important;
 }
 
 * {
@@ -28,7 +37,7 @@ body {
 }
 
 .navbar-links li {
-    padding: 0px 24px;
+    padding: 18px !important;
 }
 
 .navbar-links li a {
@@ -45,7 +54,7 @@ body {
     content: "";
     height: 2px;
     width: 0;
-    position: fixed;
+    position: absolute;
     background-color: var(--maincolor);
     bottom: 0px;
     left: 0px;
@@ -71,6 +80,8 @@ span {
 
 .lname {
     background-color: var(--maincolor);
+    color: var(--white);
+    padding: 0 4px;
 }
 
 .custom-height {
@@ -307,4 +318,59 @@ button.navbar-toggler1 {
 
 .project .card-text {
     margin-top: 100px;
+}
+
+input {
+    background-color: #1a1f28 !important;
+    border: none;
+}
+
+input:placeholder {
+    color: var(--white);
+}
+
+.sendmsg {
+    margin-top: 20px;
+}
+
+input {
+    background-color: #1b2029 !important;
+    color: var(--white) !important;
+    border: none !important;
+    padding: 15px 12px !important;
+}
+
+input:focus {
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.25) !important;
+}
+
+input::placeholder {
+    color: #fff !important
+}
+
+#exampleFormControlTextarea1 {
+    background-color: #1b2029 !important;
+    border: 0px;
+    box-shadow: var(--white) !important;
+}
+
+#exampleFormControlTextarea1:focus {
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.25) !important;
+}
+
+#exampleFormControlTextarea1::placeholder,
+#exampleFormControlTextarea1 {
+    padding: 15px 12px !important;
+    color: var(--white) !important;
+}
+
+.cntctme {
+    background-color: #2c2e3c !important;
+}
+
+
+/* -------------------------footer--------------------------- */
+
+.fotter {
+    padding: 40px 0;
 }
