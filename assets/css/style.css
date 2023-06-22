@@ -6,6 +6,7 @@
 
 .contenttext a {
     text-decoration: none;
+    font-size: large;
 }
 
 body {
@@ -32,6 +33,15 @@ body {
 * {
     list-style: none;
     text-decoration: none;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background: #1b2029;
+    height: 100px;
+    top: 0;
 }
 
 .navbar-links {
@@ -148,6 +158,10 @@ button.navbar-toggler1 {
 .content {
     /* padding: 24px; */
     align-items: center;
+}
+
+.hero-section {
+    margin-top: 68px;
 }
 
 .content h1 {
@@ -358,18 +372,18 @@ input::placeholder {
     color: #fff !important
 }
 
-#exampleFormControlTextarea1 {
+#messageInputBox {
     background-color: #1b2029 !important;
     border: 0px;
     box-shadow: var(--white) !important;
 }
 
-#exampleFormControlTextarea1:focus {
+#messageInputBox:focus {
     box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.25) !important;
 }
 
-#exampleFormControlTextarea1::placeholder,
-#exampleFormControlTextarea1 {
+#messageInputBox::placeholder,
+#messageInputBox {
     padding: 15px 12px !important;
     color: var(--white) !important;
 }
