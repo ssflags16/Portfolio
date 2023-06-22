@@ -4,6 +4,10 @@
     --maincolor2: #1060d8;
 }
 
+.contenttext a {
+    text-decoration: none;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -14,6 +18,7 @@ body {
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'Poppins', sans-serif; */
     /* font-family: 'Wix Madefor Text', sans-serif; */
+    scroll-behavior: smooth;
 }
 
 .btn.btn-primary {
@@ -300,7 +305,7 @@ button.navbar-toggler1 {
 
 .project-card-img {
     width: 100% !important;
-    height: 100%;
+    height: 220px;
     object-fit: cover;
 }
 
@@ -310,14 +315,19 @@ button.navbar-toggler1 {
     top: 100%;
     height: 100%;
     transition: 0.3s all;
+    width: 100%;
 }
 
 .project:hover .card-body {
     top: 0;
 }
 
+.services {
+    min-height: 301px !important;
+}
+
 .project .card-text {
-    margin-top: 100px;
+    margin-top: 65px;
 }
 
 input {
@@ -368,9 +378,67 @@ input::placeholder {
     background-color: #2c2e3c !important;
 }
 
+.form-control {
+    background-color: #1b2029 !important;
+}
+
 
 /* -------------------------footer--------------------------- */
 
 .fotter {
     padding: 40px 0;
+}
+
+.goup {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    display: none;
+    z-index: 100;
+}
+
+
+/* -----------------------------Model----------------------------------  */
+
+.modal-content {
+    background-color: #2c2e3c;
+}
+
+.productimg1 {
+    width: 100%;
+}
+
+.modal-header {
+    border-bottom: unset;
+    position: relative;
+    padding: 0;
+}
+
+.btn-close {
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    color: #fff !important;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='15' y1='9' x2='9' y2='15'%3E%3C/line%3E%3Cline x1='9' y1='9' x2='15' y2='15'%3E%3C/line%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.uptext p {
+    position: absolute;
+    bottom: 0;
+    left: 36%;
+}
+
+.contenttext {
+    margin-top: 10px;
+}
+
+.builtwith {
+    color: #ffffff !important;
+    font-size: large;
+}
+
+.productimg {
+    width: 100%;
 }
