@@ -326,7 +326,7 @@ button.navbar-toggler1 {
 .uptext {
     background-color: rgba(0, 0, 0, 0.407);
     position: absolute;
-    top: 100%;
+    top: -100%;
     height: 100%;
     transition: 0.3s all;
     width: 100%;
