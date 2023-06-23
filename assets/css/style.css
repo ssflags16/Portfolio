@@ -456,3 +456,13 @@ input::placeholder {
 .productimg {
     width: 100%;
 }
+
+.contactme-items {
+    padding: 8px;
+}
+
+.fab {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 4px;
+}
