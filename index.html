@@ -130,7 +130,8 @@
                 <div class="col-6">
                     <ul>
                         <li><span>05.</span> JAVASCRIPT</li>
-                        <li><span>06.</span> My SQL</li>
+                        <li><span>06.</span> PHP</li>
+                        <li><span>07.</span> My SQL</li>
 
                     </ul>
                 </div>
@@ -206,7 +207,7 @@
             <div class="row mt-5">
                 <div class="col-md-4 col-sm-6 mt-md-2 mt-4">
                     <div class="card project">
-                        <img class="project-card-img" src="./assets/imgs/mobile app1.jpg" alt=" Card image cap" href>
+                        <img class="project-card-img" src="./assets/imgs/mobile app1.jpg" alt="Card image cap" href>
                         <div class="card-body uptext ">
                             <p>
                                 <button data-bs-toggle="modal" data-bs-target="#projectmodel5" class="btn btn-primary">View Detail</button></p>
@@ -269,59 +270,66 @@
     </section>
 
     <section class="sect_padding cntctme " id="contact">
-        <div class="container ">
+        <div class="container" style="position:relative">
+            <div class=" alertMsg">
+
+                <p> <i class="fa-solid fa-check text-white"></i>Your Message has successfully Sent </p>
+
+
+
+            </div>
             <div class="row text-center ">
                 <div class="col-sm-12 ">
 
                     <p>Get in <span>Touch</span></p>
                     <h4>Contact Me</h4>
                 </div>
-                <form>
+                <form onsubmit="sendEmail(); reset(); return false">
                     <div class="row mt-4 ">
 
-                        <div class="col-md-8">
-                            <div class="row">
+                        <div class="col-md-8 ">
+                            <div class="row ">
                                 <div class="col-sm-4 mt-4 ">
-                                    <input type="text " class="form-control " placeholder="Name " required>
+                                    <input type="text " id="name" class="form-control " placeholder="Name " required>
                                 </div>
                                 <div class="col-sm-4 mt-4 ">
-                                    <input type="email " class="form-control " placeholder="Email " required>
+                                    <input type="email " id="email" class="form-control " placeholder="Email " required>
                                 </div>
                                 <div class="col-sm-8 ">
                                     <div class="form-group ">
-                                        <label for="messageInputBox"></label>
-                                        <textarea class="form-control " id="messageInputBox" rows="8 " placeholder="Enter your message "></textarea>
+                                        <label for="messageInputBox "></label>
+                                        <textarea class="form-control " id="message" rows="8 " placeholder="Enter your message " required></textarea>
                                     </div>
                                 </div>
                                 <div class="col-sm-12 sendmsg ">
-                                    <a href="# " class="btn btn-primary " type="submit ">Send Message</a>
+                                    <button class="btn btn-primary " type="submit">Send Message</button>
 
                                 </div>
                             </div>
 
                         </div>
-                        <div class="col-md-4 mt-4 text-center text-md-start">
-                            <div class="contactme-items">
+                        <div class="col-md-4 mt-4 text-center text-md-start ">
+                            <div class="contactme-items ">
 
                                 <h5>Email</h5>
                                 <p>ssflags16@gmail.com</p>
                             </div>
-                            <div class="contactme-items">
+                            <div class="contactme-items ">
                                 <h5>Phone</h5>
                                 <p>+923412757473</p>
                             </div>
-                            <div class="contactme-items">
+                            <div class="contactme-items ">
                                 <h5>Follow me</h5>
 
-                                <ul class="socialmedia">
-                                    <li><a href="https://www.linkedin.com/in/shahid-siraj/ " target="_blank"><i class="fa-brands fa-linkedin-in "></i></a></li>
+                                <ul class="socialmedia ">
+                                    <li><a href="https://www.linkedin.com/in/shahid-siraj/ " target="_blank "><i class="fa-brands fa-linkedin-in "></i></a></li>
                                     <li>
-                                        <a href="https://www.fiverr.com/ssflags16?up_rollout=true" target="_blank">
-                                            <i class="fab fa-fonticons-fi"></i>
+                                        <a href="https://www.fiverr.com/ssflags16?up_rollout=true " target="_blank ">
+                                            <i class="fab fa-fonticons-fi "></i>
                                         </a>
                                     </li>
-                                    <li><a href="https://github.com/ssflags16 " target="_blank"><i class="fa-brands fa-github "></i></a></li>
-                                    <li><a href="https://www.facebook.com/profile.php?id=100006728564945&mibextid=ZbWKwL " target="_blank"><i class="fa-brands fa-facebook "></i></a></li>
+                                    <li><a href="https://github.com/ssflags16 " target="_blank "><i class="fa-brands fa-github "></i></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=100006728564945&mibextid=ZbWKwL " target="_blank "><i class="fa-brands fa-facebook "></i></a></li>
 
                                 </ul>
                             </div>
@@ -330,14 +338,14 @@
 
 
                     </div>
-
+                </form>
 
 
 
 
 
             </div>
-            </form>
+
         </div>
 
 
@@ -354,14 +362,14 @@
                 </div>
                 <div class="col-md-2 ">
                     <ul class="socialmedia ">
-                        <li><a href="https://www.linkedin.com/in/shahid-siraj/ " target="_blank"><i class="fa-brands fa-linkedin-in "></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/shahid-siraj/ " target="_blank "><i class="fa-brands fa-linkedin-in "></i></a></li>
                         <li>
-                            <a href="https://www.fiverr.com/ssflags16?up_rollout=true" target="_blank">
-                                <i class="fab fa-fonticons-fi"></i>
+                            <a href="https://www.fiverr.com/ssflags16?up_rollout=true " target="_blank ">
+                                <i class="fab fa-fonticons-fi "></i>
                             </a>
                         </li>
-                        <li><a href="https://github.com/ssflags16 " target="_blank"><i class="fa-brands fa-github "></i></a></li>
-                        <li><a href="https://www.facebook.com/profile.php?id=100006728564945&mibextid=ZbWKwL " target="_blank"><i class="fa-brands fa-facebook "></i></a></li>
+                        <li><a href="https://github.com/ssflags16 " target="_blank "><i class="fa-brands fa-github "></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100006728564945&mibextid=ZbWKwL " target="_blank "><i class="fa-brands fa-facebook "></i></a></li>
 
                     </ul>
 
@@ -372,28 +380,28 @@
 
             </div>
         </div>
-        <a href="#main" class="btn btn-primary goup "><i class="fa-solid fa-arrow-up "></i></a>
+        <a href="#main " class="btn btn-primary goup "><i class="fa-solid fa-arrow-up "></i></a>
     </section>
-    <div class="modal fade" id="projectmodel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg	">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" color-white></button>
+    <div class="modal fade " id="projectmodel" tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <button type="button " class="btn-close " data-bs-dismiss="modal" aria-label="Close" color-white></button>
                 </div>
-                <div class="modal-body">
-                    <img src="./assets/imgs/Webdevelopemnt.jpg" alt="" class="productimg1">
-                    <div class="contenttext">
+                <div class="modal-body ">
+                    <img src="./assets/imgs/Webdevelopemnt.jpg " alt=" " class="productimg1 ">
+                    <div class="contenttext ">
                         <h5>
                             <b>
-                                Tools -</b> <span class="builtwith">Html, Css, Bootstrap</span></h5>
+                                Tools -</b> <span class="builtwith ">Html, Css, Bootstrap</span></h5>
 
                         <h5>
                             <b>
                             Role -</b>
-                            <span class="builtwith">Frontend</span>
+                            <span class="builtwith ">Frontend Development</span>
                         </h5>
                         <h6>View project -
-                            <a href="https://ssflags16.github.io/Netflix-landing-page/" target="_blank">Netflix landing page</a>
+                            <a href="https://ssflags16.github.io/Netflix-landing-page/ " target="_blank ">Netflix landing page</a>
                         </h6>
                     </div>
                 </div>
@@ -405,26 +413,26 @@
 
 
 
-    <div class="modal fade" id="projectmodel1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg	">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" color-white></button>
+    <div class="modal fade " id="projectmodel1" tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <button type="button " class="btn-close " data-bs-dismiss="modal" aria-label="Close " color-white></button>
                 </div>
-                <div class="modal-body">
-                    <img src="./assets/imgs/web develop.png" alt="" class="productimg1">
-                    <div class="contenttext">
+                <div class="modal-body ">
+                    <img src="./assets/imgs/web develop.png " alt=" " class="productimg1 ">
+                    <div class="contenttext ">
                         <h5>
                             <b>
-                                Tools -</b> <span class="builtwith">Html, Css, Bootstrap</span></h5>
+                                Tools -</b> <span class="builtwith ">Html, Css, Bootstrap</span></h5>
 
                         <h5>
                             <b>
                             Role -</b>
-                            <span class="builtwith">Frontend</span>
+                            <span class="builtwith ">Frontend Development</span>
                         </h5>
                         <h6>View project -
-                            <a href="https://ssflags16.github.io/Email-template/" target="_blank">Email Template</a>
+                            <a href="https://ssflags16.github.io/Email-template/ " target="_blank ">Email Template</a>
                         </h6>
                     </div>
                 </div>
@@ -436,26 +444,26 @@
 
 
 
-    <div class="modal fade" id="projectmodel2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg	">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" color-white></button>
+    <div class="modal fade " id="projectmodel2" tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <button type="button " class="btn-close " data-bs-dismiss="modal" aria-label="Close " color-white></button>
                 </div>
-                <div class="modal-body">
-                    <img src="./assets/imgs/img.jpg" alt="" class="productimg1">
-                    <div class="contenttext">
+                <div class="modal-body ">
+                    <img src="./assets/imgs/img.jpg " alt=" " class="productimg1 ">
+                    <div class="contenttext ">
                         <h5>
                             <b>
-                                Tools -</b> <span class="builtwith">Html, Css, Bootstrap</span></h5>
+                                Tools -</b> <span class="builtwith ">Html, Css, Bootstrap</span></h5>
 
                         <h5>
                             <b>
                             Role -</b>
-                            <span class="builtwith">Frontend</span>
+                            <span class="builtwith ">Frontend Development<span>
                         </h5>
                         <h6>View project -
-                            <a href="https://ssflags16.github.io/fashion-mart/" target="_blank">Fashion Mart</a>
+                            <a href="https://ssflags16.github.io/fashion-mart/ " target="_blank ">Fashion Mart</a>
                         </h6>
                     </div>
                 </div>
@@ -464,18 +472,23 @@
         </div>
     </div>
 
-    <div class="modal fade" id="projectmodel3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg	">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" color-white></button>
+    <div class="modal fade " id="projectmodel3" tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <button type="button " class="btn-close " data-bs-dismiss="modal" aria-label="Close " color-white></button>
                 </div>
-                <div class="modal-body">
-                    <img src="./assets/imgs/graphic1.jpg" alt="" class="productimg1">
-                    <div class="contenttext">
+                <div class="modal-body ">
+                    <img src="./assets/imgs/graphic1.jpg " alt=" " class="productimg1 ">
+                    <div class="contenttext ">
                         <h4><b>Tools -</b>
-                            <span class="builtwith">Adobe Photoshop & Xd</span>
-                        </h4>
+                            <span class="builtwith ">Adobe Photoshop & Xd</span>
+                            </h4>
+                            <h5>
+                                <b>
+                                Role -</b>
+                                <span class="builtwith ">Graphic Design<span>
+                            </h5>
                     </div>
                 </div>
 
@@ -483,18 +496,23 @@
         </div>
     </div>
 
-    <div class="modal fade" id="projectmodel4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg	">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" color-white></button>
+    <div class="modal fade " id="projectmodel4" tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <button type="button " class="btn-close " data-bs-dismiss="modal" aria-label="Close " color-white></button>
                 </div>
-                <div class="modal-body">
-                    <img src="./assets/imgs/Dashobardgraphic.jpg" alt="" class="productimg1">
-                    <div class="contenttext">
+                <div class="modal-body ">
+                    <img src="./assets/imgs/Dashobardgraphic.jpg " alt=" " class="productimg1 ">
+                    <div class="contenttext ">
                         <h4><b>Tools -</b>
-                            <span class="builtwith">Adobe Photoshop & Xd</span>
-                        </h4>
+                            <span class="builtwith ">Adobe Photoshop & Xd</span>
+                                </h4>
+                                <h5>
+                                    <b>
+                                    Role -</b>
+                                    <span class="builtwith ">Graphic Design<span>
+                                </h5>
                     </div>
                 </div>
 
@@ -502,24 +520,29 @@
         </div>
     </div>
 
-    <div class="modal fade" id="projectmodel5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg	">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" color-white></button>
+    <div class="modal fade " id="projectmodel5" tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <button type="button " class="btn-close " data-bs-dismiss="modal" aria-label="Close " color-white></button>
                 </div>
-                <div class="modal-body">
-                    <img src="./assets/imgs/mobile app.jpg" alt="" class="productimg1">
-                    <div class="contenttext">
+                <div class="modal-body ">
+                    <img src="./assets/imgs/mobile app.jpg " alt=" " class="productimg1 ">
+                    <div class="contenttext ">
 
                         <h4><b>Tools -</b>
-                            <span class="builtwith">Adobe Photoshop & Xd</span>
-                        </h4>
+                            <span class="builtwith ">Adobe Photoshop & Xd</span>
+                                    </h4>
+                                    <h5>
+                                        <b>
+                            Role -</b>
+                                        <span class="builtwith ">Graphic Design<span>
+                        </h5>
                         <h6>
 
                             View Project -
 
-                            <span><a href="https://xd.adobe.com/view/780aba1b-c651-4d15-49e7-21575f0b0bd7-0e3b/" target="_blank">Book App</a>
+                            <span><a href="https://xd.adobe.com/view/780aba1b-c651-4d15-49e7-21575f0b0bd7-0e3b/ " target="_blank ">Book App</a>
                         </span> </h6>
                     </div>
                 </div>
@@ -537,17 +560,50 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz " crossorigin="anonymous "></script>
 
     <script>
         let btn = document.getElementsByClassName('goup')
 
         window.onscroll = function() {
             if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-                btn[0].style.display = "block";
+                btn[0].style.display = "block ";
             } else {
-                btn[0].style.display = "none";
+                btn[0].style.display = "none ";
             }
+        }
+    </script>
+
+
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <script>
+        function sendEmail() {
+            var senderName = document.getElementById('name').value;
+            var senderEmail = document.getElementById('email').value;
+            var msg = document.getElementById('message').value;
+            var alertMsg = document.querySelector('.alertMsg');
+
+            Email.send({
+                SecureToken: 'f978275c-3d0d-4515-9969-6f13b86e6fdd',
+                To: 'ssflags16@gmail.com',
+                From: "imssflags16@gmail.com",
+                Subject: 'subject',
+                Body: "Name :" + senderName + "<br>" + "Email :" + senderEmail + "<br>" + "Message :" + message
+            }).then(function(message) {
+
+                if (message == 'OK') {
+                    alertMsg.classList.add('fadeIn');
+                    setTimeout(() => {
+                        alertMsg.classList.remove('fadeIn');
+                    }, 5000)
+                    document.getElementById('name').value = ""
+                    document.getElementById('email').value = "";
+                    document.getElementById('message').value = "";
+                }
+            });
         }
     </script>
 

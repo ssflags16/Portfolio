@@ -372,18 +372,18 @@ input::placeholder {
     color: #fff !important
 }
 
-#messageInputBox {
+#message {
     background-color: #1b2029 !important;
     border: 0px;
     box-shadow: var(--white) !important;
 }
 
-#messageInputBox:focus {
+#message:focus {
     box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.25) !important;
 }
 
-#messageInputBox::placeholder,
-#messageInputBox {
+#message::placeholder,
+#message {
     color: var(--white) !important;
 }
 
@@ -464,4 +464,28 @@ input::placeholder {
     font-weight: 400;
     font-size: 20px;
     margin: 4px;
+}
+
+.alertMsg {
+    left: -500px;
+    top: 100px;
+    background-color: #317cff;
+    position: fixed;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    transition: 0.5s all;
+    z-index: 100;
+}
+
+.alertMsg p {
+    margin-bottom: 0;
+}
+
+.alertMsg.fadeIn {
+    left: 0px;
+}
+
+.fa-check {
+    margin-right: 10px;
 }
